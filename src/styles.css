@@ -1,0 +1,86 @@
+p {
+  font-weight: bold;
+}
+
+.form-style {
+  margin: 0 -0.5rem;
+}
+
+.weather-img {
+  position: absolute;
+  right: 0px;
+  max-width: 25%;
+}
+
+.light-theme {
+  background-image: url("./assets/images/bg-light.png");
+  color: #495057;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .weather-container {
+    margin: 0 auto;
+    max-width: 75%;
+    background: #d4b8ec;
+  }
+
+  .weather-container .search-icon {
+    background: #693eb0;
+    border: none;
+  }
+
+  .search-container {
+    background-color: #dcc6f0;
+  }
+
+  .search-container .search-bar {
+    background: #e6daf4;
+    color: #7f7f7f;
+    border: none;
+  }
+
+  .search-bar-secondary-info {
+    color: #7f7f7f;
+  }
+
+  .icon-color {
+    color: #7f7f7f;
+  }
+}
+
+.dark-theme {
+  background-image: url("./assets/images/bg-dark.png");
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .weather-container {
+    margin: 0 auto;
+    max-width: 75%;
+    background: #403288;
+  }
+
+  .weather-container .search-icon {
+    background: #382d6a;
+    border: none;
+  }
+
+  .search-container {
+    background-color: #362b68;
+  }
+
+  .search-container .search-bar {
+    background: #2A2349;
+    color: white;
+    border: none;
+  }
+
+  .search-bar-secondary-info {
+    color: #807d8f;
+  }
+
+  .icon-color {
+    color: #cbc6da;
+  }
+
+}
